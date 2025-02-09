@@ -8,7 +8,7 @@ public class Average {
 
         // taking integer inputs from user 
 
-        System.out.println("Enter three Numbers -------->");
+        System.out.println("Enter three Numbers= -------->");
         int a =scn.nextInt();
         int b =scn.nextInt();
         int c=scn.nextInt();
