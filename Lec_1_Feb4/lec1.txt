@@ -1,0 +1,7 @@
+Lecture 1:
+Introduction to Java 
+Variables 
+DataTypes 
+Literals 
+Primitiva and Non-Primitive Data Types
+
