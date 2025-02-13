@@ -22,7 +22,7 @@ public class Pattern2 {
                 System.out.print("*\t");
             }
 
-            // move to next Line , increase number of stars 
+            // move to next Line , decrease number of stars 
             System.out.println();
             stars--;
 

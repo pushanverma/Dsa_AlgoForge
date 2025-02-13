@@ -30,7 +30,7 @@ public class Pattern3 {
                 System.out.print("*\t");
             }
 
-            // move to next Line , increase number of stars 
+            // move to next Line , increase number of stars and decrease number of spaces 
             System.out.println();
             stars++;
             spaces--;
