@@ -1,0 +1,6 @@
+Subtract two arrays 
+Reverse Array 
+Rotate array by k 
+Inverse of Array 
+Subarray 
+Subarray with sum k 
