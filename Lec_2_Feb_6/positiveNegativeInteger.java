@@ -10,7 +10,11 @@ public class positiveNegativeInteger {
 
         if (n < 0) {
             System.out.println("Negative  number ");
-        } else {
+        } 
+        else if(n==0){
+            System.out.println("Neither positive nor negative ");
+        }
+        else {
             System.out.println("Positive number ");
         }
     }
