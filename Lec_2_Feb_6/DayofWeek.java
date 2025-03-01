@@ -50,8 +50,9 @@ class DayofWeek {
             case 6 :System.out.println("Saturday");
             break;
             default : System.out.println("Not a day");
+            break;
         }
-        
+
 
     }
 }
