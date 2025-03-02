@@ -2,5 +2,12 @@
 Loops 
 
 while Loop 
+for Loop 
+
+LoopExample 
+oddEven 
+Multiplication Table 
+
+
 
 
