@@ -7,6 +7,10 @@ for Loop
 LoopExample 
 oddEven 
 Multiplication Table 
+Factorial of number 
+Prime number 
+Prime number till n 
+
 
 
 
