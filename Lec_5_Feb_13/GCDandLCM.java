@@ -6,9 +6,7 @@ public class GCDandLCM {
 
         Scanner scn = new Scanner(System.in);
 
-
         // 1st Approach ------>
-
 
         // GCD(greatest common divisor)= HCF(Highest comman factor)
 
@@ -18,41 +16,49 @@ public class GCDandLCM {
         System.out.print("Enter num2=");
         int num2 = scn.nextInt();
 
-
         int minimum = Math.min(num1, num2);
 
         System.out.println(minimum + "...minm");
 
+        int possibleGCD = 1;
 
-        int possibleGCD=1;
-        
+        int finalGcd = 1;
 
-        int finalGcd =1;
+        while (possibleGCD <= minimum) {
 
-        while(possibleGCD<=minimum){
-
-            if(num1 % possibleGCD ==0 && num2%possibleGCD==0){
-                finalGcd=possibleGCD;
+            if (num1 % possibleGCD == 0 && num2 % possibleGCD == 0) {
+                finalGcd = possibleGCD;
             }
 
             possibleGCD++;
         }
 
-        System.out.println("GCD/HCF of "+num1+" and "+num2+"="+finalGcd);
+        System.out.println("GCD/HCF of " + num1 + " and " + num2 + "=" + finalGcd);
 
-        int lcm =(num1*num2)/finalGcd;
+        int lcm = (num1 * num2) / finalGcd;
 
-        System.out.println("LCM of "+num1+" and "+num2+"="+lcm);
-
-
-
+        System.out.println("LCM of " + num1 + " and " + num2 + "=" + lcm);
 
         // 2nd Approach -------->
 
+        System.out.println("--------------------2nd Approach----------------------------------");
 
+        int divisor = num1;
+        int divedend = num2;
 
+        while (divedend % divisor != 0) {
+            int remainder = divedend % divisor;
 
+            divedend = divisor;
+            divisor = remainder;
 
+        }
+
+        int hcf = divisor;
+
+        System.out.println("GCD/HCF of " + num1 + " and " + num2 + "=" + hcf);
+        int lcm2 = (num1 * num2) / hcf;
+        System.out.println("LCM of " + num1 + " and " + num2 + "=" + lcm2);
 
     }
-    }
+}
