@@ -14,6 +14,25 @@ public  class xPowery {
 
     }
 
+    public static int PowerFunction2(int x,int y){
+
+        if(y==0){
+            return 1;
+        }
+
+        int smallAns =PowerFunction2(x,y/2);
+        
+        int finalAns =1;
+
+        if(y%2==0){
+            // if y is even 
+          return   finalAns=smallAns*smallAns;
+        }else {
+            // if y is odd 
+          return   finalAns= x*(smallAns*smallAns);
+        }
+    }
+
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
@@ -24,7 +43,8 @@ public  class xPowery {
         System.out.print("Enter y=");
         int y = scn.nextInt();
 
-        int ans = PowerFunction(x, y);
+        // int ans = PowerFunction(x, y);
+        int ans =PowerFunction2(x,y);
 
         System.out.println(ans);
 
