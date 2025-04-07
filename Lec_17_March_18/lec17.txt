@@ -1,0 +1,10 @@
+Introduction to Recursion 
+
+Print Decreasing 
+Print Increasing 
+Print Decreasing-Increasing 
+Factorial of Number 
+
+
+
+
