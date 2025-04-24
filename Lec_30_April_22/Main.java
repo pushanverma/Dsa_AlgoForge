@@ -116,7 +116,7 @@ class LinkedList {
     // topic: getNodeAt()
     public Node getNodeAt(int idx) {
 
-        if (idx == 0 || idx >= size) {
+        if (idx < 0 || idx >= size) {
             System.out.println("Node does not exist");
         }
 
@@ -192,6 +192,57 @@ class LinkedList {
         this.size--;
 
     }
+
+    // topic: reverseLinkedList() ->O(n square , n for the loop and n because of
+    // getNodeAt function n*n)
+
+    public void reverseLinkedList() {
+
+        int i = 0;
+        int j = size - 1;
+
+        while (i <= j) {
+
+            Node nodeAti = getNodeAt(i);
+            Node nodeAtj = getNodeAt(j);
+
+            int dataAti = nodeAti.data;
+            int dataAtj = nodeAtj.data;
+
+            nodeAti.data = dataAtj;
+            nodeAtj.data = dataAti;
+
+            i++;
+            j--;
+
+        }
+
+    }
+
+    // topic:reverseLinkedList(through pointer i.e next)
+    public void reverseLinkedListPointer() {
+        Node previous = null;
+        Node current = this.head;
+
+        Node originalHead = this.head;
+
+        while (current != null) {
+
+            Node currentKaNext = current.next;
+
+            current.next = null; // breaking the connection
+            current.next = previous; // pointing to previous
+
+            // moving forward
+            previous = current;
+            current = currentKaNext;
+
+        }
+        tail = originalHead;
+        head = previous;
+
+    }
+
 }
 
 class Main {
@@ -202,12 +253,12 @@ class Main {
             ll.addLast(i);
         }
 
-        // ll.display();
-
-        ll.addFirst(55);
-        ll.addFirst(10);
-
         ll.display();
+
+        // ll.addFirst(55);
+        // ll.addFirst(10)
+        // ;
+        // ll.display();
 
         // note: checking removeLast fn
         // ll.removeLast();
@@ -231,8 +282,21 @@ class Main {
         // ll.addNodeAt(6, 89);
         // ll.display();
 
-        ll.removeNodeAt(2);
+        // note:removing a node at a particular index
+
+        // ll.removeNodeAt(2);
+        // ll.display();
+
+        // note: Reversing Linked list
+
+        // ll.reverseLinkedList();
+        // ll.display();
+
+        ll.reverseLinkedListPointer();
         ll.display();
+
+        // ll.reverseLinkedList();
+        // ll.display();
 
         // System.out.println(ll.head.data);
         // System.out.println(ll.head.next.data);
