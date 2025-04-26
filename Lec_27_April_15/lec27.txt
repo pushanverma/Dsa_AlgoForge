@@ -1,0 +1,21 @@
+OOPS in Java 
+
+
+
+#Classes and objects 
+Classes are blueprint of data structure which has its own set of properties(attributes) and functions(methods)
+Objects are the entitites which follow the blueprint of classes .
+
+
+#toString Method(Special method inside the class)
+
+toString() function is a special function which has returnType as String and is called when we print object 
+(and not make the object , because that is when constructor is called).
+
+constructors and its types (default , parametrized)
+this keyword 
+Constructor Chaining 
+Bikes question 1
+static keyword and its rules
+Bikes question 2 
+

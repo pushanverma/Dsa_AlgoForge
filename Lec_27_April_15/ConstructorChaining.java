@@ -20,20 +20,20 @@ class Vehicle {
     }
 
     public Vehicle(String color, int mileage) {
-        //topic: new syntax (where we are calling constructor having parameter color )
-        this(color);
+        // topic: new syntax (where we are calling constructor having parameter color )
+        this(color); // note: calling above constructor having color as param
         this.mileage = mileage;
         System.out.println("Constructor with color,mileage param is called");
     }
 
     public Vehicle(String color, int mileage, int seats) {
-        this(color, mileage);
+        this(color, mileage); // note: calling above constructor having (color,mileage) as param
         this.seats = seats;
         System.out.println("Constructor with color,mileage,seats param is called");
     }
 
     public Vehicle(String color, int mileage, int seats, int wheels) {
-        this(color, mileage, seats);
+        this(color, mileage, seats); // note: calling above constructor having (color,mileage,seats ) as param
         this.wheels = wheels;
         System.out.println("Constructor with color,mileage,seats,wheels param is called");
     }
