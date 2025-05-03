@@ -1,0 +1,19 @@
+Pillar of OOPS(Inheritance, Encapsulation , Anstraction, Polymorphism )
+Inheritance 
+extends 
+super 
+Type of Inheritance(Single , Multi-Level , Hierarchial-possible in java   |   Multiple , Hybrid - not possible in java )
+Complex Number questions 
+Polymorphism 
+Types of Polymorphism(Compile Time Polymorphism , Run time Polymorphism)
+Encapsulation 
+Access Modifiers(public , private , protected , default )
+Abstraction(abstract keyword)
+interface
+implements and final 
+
+
+
+
+
+

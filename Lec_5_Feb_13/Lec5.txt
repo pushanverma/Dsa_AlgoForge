@@ -1,2 +1,9 @@
 Rotate Number 
 GCD and LCM 
+Prime Factorization 
+
+
+
+Patterns 
+
+Pattern 1
