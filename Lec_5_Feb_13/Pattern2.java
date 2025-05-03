@@ -1,28 +1,27 @@
 import java.util.*;
 
 public class Pattern2 {
-    
+
     public static void main(String[] args) {
-        
-        Scanner scn =new Scanner(System.in);
+
+        Scanner scn = new Scanner(System.in);
 
         System.out.println("Enter lines --->");
-        int n =scn.nextInt();
+        int n = scn.nextInt();
 
-        int total_number_of_line=n;
+        int total_number_of_line = n;
 
+        int current_line = 1;
+        int stars = n;
 
-        int current_line=1;
-        int stars=n;
-
-        while(current_line<=total_number_of_line){
+        while (current_line <= total_number_of_line) {
             // print stars
 
-            for(int i=1;i<=stars;i++){
+            for (int i = 1; i <= stars; i++) {
                 System.out.print("*\t");
             }
 
-            // move to next Line , decrease number of stars 
+            // prepare for the next line
             System.out.println();
             stars--;
 
