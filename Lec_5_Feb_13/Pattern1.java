@@ -9,12 +9,14 @@ public class Pattern1 {
         System.out.println("Enter lines --->");
         int n = scn.nextInt();
 
-        int total_number_of_line = n;
+        int tnol = n;// total number of line
 
-        int current_line = 1;
+        int cnol = 1;// current number of line
         int stars = 1;
 
-        while (current_line <= total_number_of_line) {
+        // note: 1st Method (using while loop )
+
+        while (cnol <= tnol) {
             // 1.Print stars
 
             for (int i = 1; i <= stars; i++) {
@@ -27,8 +29,23 @@ public class Pattern1 {
             System.out.println();
             stars++;
 
-            current_line++;
+            cnol++;
 
+        }
+
+        // note: 2nd method (using for loop)
+        for (; cnol <= tnol; cnol++) {
+            // 1. print stars
+
+            for (int i = 1; i <= stars; i++) {
+                System.out.print("*\t");
+            }
+
+            // 2. print spaces
+
+            // 3.prepare for the next line
+            stars++;
+            System.out.println();
         }
 
     }
