@@ -1,36 +1,34 @@
 import java.util.*;
 
 public class Pattern3 {
-    
+
     public static void main(String[] args) {
-        
-        Scanner scn =new Scanner(System.in);
+
+        Scanner scn = new Scanner(System.in);
 
         System.out.println("Enter lines --->");
-        int n =scn.nextInt();
+        int n = scn.nextInt();
 
-        int total_number_of_line=n;
+        int total_number_of_line = n;
 
+        int current_line = 1;
+        int stars = 1;
+        int spaces = n - 1;
 
-        int current_line=1;
-        int stars=1;
-        int spaces=n-1;
+        while (current_line <= total_number_of_line) {
 
-        while(current_line<=total_number_of_line){
-
-            // print spaces 
-            for(int i=1;i<=spaces;i++){
+            // print spaces
+            for (int i = 1; i <= spaces; i++) {
                 System.out.print("\t");
             }
 
-
             // print stars
 
-            for(int i=1;i<=stars;i++){
+            for (int i = 1; i <= stars; i++) {
                 System.out.print("*\t");
             }
 
-            // move to next Line , increase number of stars and decrease number of spaces 
+            // move to next Line , increase number of stars and decrease number of spaces
             System.out.println();
             stars++;
             spaces--;
