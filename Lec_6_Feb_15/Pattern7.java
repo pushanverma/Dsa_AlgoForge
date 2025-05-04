@@ -23,6 +23,7 @@ public class Pattern7 {
                 }
             }
 
+            //prepare for the next line 
             cnol++;
             System.out.println();
 
