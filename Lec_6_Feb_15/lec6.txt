@@ -1,0 +1,10 @@
+Pattern 6(Hollow Diamond)
+Pattern 7(Diagonal)
+Pattern 8(Anti Diagonal)
+Pattern 9 (Diagonal and Anti Diagonal)
+Pattern 10(Hollow Diamond)
+Pattern 11
+Pattern 12(Fibonacci)
+Pattern 13(Important Pattern)
+
+
