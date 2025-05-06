@@ -14,7 +14,7 @@ public class Pattern14 {
 
         int startingNumber = 1;
 
-        //note: My Approach
+        // note: My Approach
 
         while (cnol <= tnol) {
             // print star
@@ -54,9 +54,7 @@ public class Pattern14 {
 
         }
 
-
-
-        //note: Easy and Good Approach (reverse the loop )
+        // note: Easy and Good Approach (reverse the loop )
 
         while (cnol <= tnol) {
             // print star
@@ -80,8 +78,8 @@ public class Pattern14 {
             }
             // System.out.println(startingNumber+"....startingNumber");
 
-            for (int i = star; i >=1; i--) {
-                System.out.print(i+ "\t");
+            for (int i = star; i >= 1; i--) {
+                System.out.print(i + "\t");
                 // startingNumber--;
 
             }
