@@ -34,7 +34,9 @@ public class Pattern15 {
                         System.out.print("\t");
                     }
 
-                } else {
+                }
+
+                else {
                     System.out.print("*\t");
                 }
 
