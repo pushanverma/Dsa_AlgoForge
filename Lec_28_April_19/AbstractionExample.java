@@ -2,11 +2,17 @@ import java.util.*;
 
 //-------------------------------------ABSTRACTION--------------------------------------
 
+// note: here we have only learned about abstract class. "abstract class" and interface are two diffrent things . 
+
 abstract class Shape {
 
     int numberofSides;
 
     abstract public double getArea();
+
+    Shape(){
+        System.out.println("Constructor in abstract class");
+    }
 
 }
 
@@ -44,12 +50,9 @@ public class AbstractionExample {
 
     public static void main(String[] args) {
 
-
         Rectangle r = new Rectangle(2, 5);
         System.out.println(r.getArea());
 
-
-        
         Circle c = new Circle(2);
         System.out.println(c.getArea());
 
