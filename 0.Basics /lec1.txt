@@ -5,10 +5,3 @@ Variables
 DataTypes 
 Literals 
 Primitive and Non-Primitive Data Types
-
-
-
-
-
-
-
