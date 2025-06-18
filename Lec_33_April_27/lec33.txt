@@ -1,2 +1,0 @@
-Problems on Linked List (gfg and Leetcode)
-

@@ -1,3 +1,0 @@
-removeFirst in LL
-getNodeAt in LL
-
