@@ -1,0 +1,28 @@
+Introduction to Recursion 
+Print Decreasing 
+Print Increasing 
+Print Decreasing-Increasing 
+Factorial of Number 
+-------------------------------------------------------
+Recursion questions 
+x to power y 
+zigZag Pattern question(in order to understand tree diagram)  
+Tower of Hanoi 
+--------------------------------------------------------
+Recursion on Arrays 
+
+Print Array 
+Print Reverse Array 
+Find maximum in Array 
+Find first Index of Target 
+Find last Index of Target
+Find all Indices
+---------------------------------------------------------
+
+
+
+
+
+
+
+

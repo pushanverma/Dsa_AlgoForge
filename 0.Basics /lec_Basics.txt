@@ -1,0 +1,56 @@
+
+Introduction to Java 
+How Java Works 
+Variables 
+DataTypes 
+Literals 
+Primitive and Non-Primitive Data Types
+----------------------------------------------------
+Conditionals and Loops 
+
+
+if-else 
+positiveNegativeInteger 
+Fever 
+
+switch-case
+DayofWeek
+
+
+Leap Year
+------------------------------------------------------
+
+Loops 
+
+while Loop 
+for Loop 
+
+LoopExample 
+oddEven 
+Multiplication Table 
+Factorial of number 
+Prime number 
+Prime number till n 
+-------------------------------------------------------
+nth term of Fibonacci
+CountDigits
+SumofDigits
+Reverse Number 
+Inverse Number 
+Rotate Number
+
+
+
+
+https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/
+--------------------------------------------------------------
+Rotate Number 
+GCD and LCM 
+Prime Factorization 
+Patterns start -
+Pattern 1
+Pattern 2
+Pattern 3
+Pattern 4
+Pattern 5
+

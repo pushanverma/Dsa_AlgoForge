@@ -1,7 +1,0 @@
-Lecture 1:
-Introduction to Java 
-How Java Works 
-Variables 
-DataTypes 
-Literals 
-Primitive and Non-Primitive Data Types

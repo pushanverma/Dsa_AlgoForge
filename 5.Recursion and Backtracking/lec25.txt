@@ -1,3 +1,0 @@
-Friends Pairing Problem 
-Josephus Problem 
-Sudoku Solver 

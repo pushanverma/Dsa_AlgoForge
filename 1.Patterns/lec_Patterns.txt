@@ -1,3 +1,10 @@
+Patterns start -
+Pattern 1
+Pattern 2
+Pattern 3
+Pattern 4
+Pattern 5
+-------------------------------------
 Pattern 6(Hollow Diamond)
 Pattern 7(Diagonal)
 Pattern 8(Anti Diagonal)
@@ -6,5 +13,12 @@ Pattern 10(Hollow Diamond)
 Pattern 11
 Pattern 12(Fibonacci)
 Pattern 13(Important Pattern)
+--------------------------------------
+Pattern 14
+Pattern 15
+Pattern 16
+
+
+
 
 

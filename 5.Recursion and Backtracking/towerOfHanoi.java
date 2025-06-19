@@ -8,7 +8,7 @@ public class towerOfHanoi {
         }
 
         toh(n - 1, from_rod, helper_rod, to_rod);
-        System.out.println("Moving disk " + n + " from " + from_rod + "-->" + to_rod);
+        System.out.println("Moving disk " + n + " from " + from_rod + "-->" + to_rod +" ,using "+ helper_rod);
         toh(n - 1, helper_rod, to_rod, from_rod);
 
     }

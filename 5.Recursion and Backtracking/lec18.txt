@@ -1,5 +1,0 @@
-Recursion questions 
-x to power y 
-Pattern question(in order to understand tree diagram) ZigZag Pattern 
-Tower of Hanoi 
-
