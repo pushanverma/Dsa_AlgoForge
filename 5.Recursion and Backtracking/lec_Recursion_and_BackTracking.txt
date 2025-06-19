@@ -4,12 +4,12 @@ Print Increasing
 Print Decreasing-Increasing 
 Factorial of Number 
 -------------------------------------------------------
-Recursion questions 
+Recursion questions
 x to power y 
 zigZag Pattern question(in order to understand tree diagram)  
 Tower of Hanoi 
 --------------------------------------------------------
-Recursion on Arrays 
+Recursion on Arrays :
 
 Print Array 
 Print Reverse Array 
@@ -18,6 +18,34 @@ Find first Index of Target
 Find last Index of Target
 Find all Indices
 ---------------------------------------------------------
+Recursion on the Way Down :
+
+ArrayList Introduction 
+getSubsequences 
+getKPC (get all KeyPad Combinations) 
+getAllStairPaths 
+getAllMazePath
+getAllMazePathWithJumps
+
+-----------------------------------------------------------
+
+Recursion on the Way Up :
+
+getSubsequences
+getKPC
+getAllStairPath
+getAllMazePathwithJumps
+
+-----------------------------------------------------------
+PrintEncodings
+PrintPermutation
+Find maximum sum of path 
+-------------------------------------------------------------
+
+
+
+
+
 
 
 

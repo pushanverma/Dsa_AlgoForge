@@ -23,7 +23,9 @@ public class firstIndex {
     // topic: "On the way Up" Approach(More optimized)- it will find the index
     public static int findfirstIndex(int[] arr, int idx, int target) {
 
+
         if (idx == arr.length) { // 1
+            // suppose if your array size is zero , then also you have to return -1
             return -1;
         }
 
