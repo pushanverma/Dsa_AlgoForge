@@ -21,9 +21,10 @@ Find all Indices
 Recursion on the Way Down :
 
 ArrayList Introduction 
+
 getSubsequences 
 getKPC (get all KeyPad Combinations) 
-getAllStairPaths 
+getAllStairPath
 getAllMazePath
 getAllMazePathWithJumps
 
@@ -34,6 +35,7 @@ Recursion on the Way Up :
 getSubsequences
 getKPC
 getAllStairPath
+getAllMazePath
 getAllMazePathwithJumps
 
 -----------------------------------------------------------

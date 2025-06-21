@@ -2,21 +2,6 @@ import java.util.*;
 
 public class LastIndex {
 
-    // topic : "On the way Up Approach"
-    // public static int lastIndex(int[] arr, int index, int target) {
-
-    // if(index ==arr.length){
-    // return -1;
-    // }
-
-    // if(arr[index]==target){
-
-    // }
-
-    // int lastIndexsoFar = lastIndex(arr, index+1 , target);
-
-    // }
-
     // topic: "On the way Down Approach "
     public static int lastIndex(int[] arr, int index, int target) {
         if (index == arr.length) { // 1
@@ -32,7 +17,7 @@ public class LastIndex {
         } else {
             return furtherlastIndex;
         }
-
+        
     }
 
     public static void main(String[] args) {
