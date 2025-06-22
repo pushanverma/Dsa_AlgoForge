@@ -19,9 +19,9 @@ public class GetSubsequences {
         // Recursive call for sending remaining string
         ArrayList<String> smallerAns = getAllSubsequence(remainingString); //4
 
-        ArrayList<String> finalAns = new ArrayList<>();
+        ArrayList<String> finalAns = new ArrayList<>(); //5
 
-        // a said no
+        // a said no   //6
         for (String element : smallerAns) {
             finalAns.add(element);
         }
