@@ -47,6 +47,46 @@ Find maximum sum of path
 
 
 
+BackTracking :
+
+Knights Tour 
+Coin Change - Permutation(Single Use , Multiple use)
+Coin Change - Combination(Single Use , Multiple use)
+-------------------------------------------------------------
+Friends Pairing 
+Josephus Problem 
+Sudoku Solver
+N-Queens Optimised 
+
+Leetcode questions 
+leetcode 22
+leetcode 79
+// leetcode 1307 (requires Map, set)
+
+    // leetcode 140 (requires set)
+
+    // leetcode 212 (TRIE + backtracking)
+
+    // HomeWORK  ================================================================
+    // leetcode 526 
+
+    // leetcode 1947
+
+    // leetcode 1986
+
+    // leetcode 282
+
+    // leetcode 301
+
+    // leetcode 980
+
+
+
+
+
+
+
+
 
 
 
