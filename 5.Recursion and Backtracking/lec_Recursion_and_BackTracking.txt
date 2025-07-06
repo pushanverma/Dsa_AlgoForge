@@ -32,11 +32,11 @@ getAllMazePathWithJumps
 
 Recursion on the Way Up :
 
-getSubsequences
-getKPC
-getAllStairPath
-getAllMazePath
-getAllMazePathwithJumps
+PrintSubsequences
+PrintKPC
+PrintAllStairPath
+PrintAllMazePath
+PrintAllMazePathwithJumps
 
 -----------------------------------------------------------
 PrintEncodings
