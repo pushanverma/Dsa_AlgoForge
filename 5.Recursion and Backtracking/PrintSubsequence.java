@@ -5,7 +5,7 @@ public class PrintSubsequence {
 
     public static void printAllSubsequence(String str, String sub) {
 
-        if (str.length() == 0) {
+        if (str.length() == 0) {         
             System.out.println(sub);
             return;
         }
