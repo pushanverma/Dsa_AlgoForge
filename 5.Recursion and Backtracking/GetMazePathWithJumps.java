@@ -37,7 +37,7 @@ public class GetMazePathWithJumps {
         }
 
         //diagonal paths 
-        for (int jump = 1; jump <= Math.min(dr, dc); jump++) {
+        for (int jump = 1; jump <= Math.min(dr-sr, dc-sc); jump++) {
             ArrayList<String> dpath = getMazePathwithJumps(sr + jump, sc + jump, dr, dc);
 
             for (String path : dpath) {
@@ -52,7 +52,7 @@ public class GetMazePathWithJumps {
 
     public static void main(String[] args) {
 
-        ArrayList<String> ans = getMazePathwithJumps(0, 0, 2, 2);
+        ArrayList<String> ans = getMazePathwithJumps(0, 0, 3, 4);
         System.out.println(ans);
         System.out.println("size->"+ ans.size());
 
