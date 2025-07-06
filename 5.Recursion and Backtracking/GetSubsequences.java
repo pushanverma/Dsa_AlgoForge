@@ -4,7 +4,7 @@ import java.util.*;
 public class GetSubsequences {
 
     // topic : Recursion on the way down 
-    public static ArrayList<String> getAllSubsequence_DOWN(String str) {
+    public static ArrayList<String> getAllSubsequence(String str) {
 
         // base case
         if (str.length() == 0) {   //1
@@ -19,7 +19,7 @@ public class GetSubsequences {
         String remainingString = str.substring(1); //3
 
         // Recursive call for sending remaining string
-        ArrayList<String> smallerAns = getAllSubsequence_DOWN(remainingString); //4
+        ArrayList<String> smallerAns = getAllSubsequence(remainingString); //4
 
         ArrayList<String> finalAns = new ArrayList<>(); //5
 
@@ -37,26 +37,6 @@ public class GetSubsequences {
 
     }
 
-    //topic: Recursion on the way UP 
-    public static void getAllSubsequence_UP(String str, String sub) {
-
-        if (str.length() == 0) {
-            System.out.println(sub);
-            return;
-        }
-
-        char first_character = str.charAt(0);
-
-        String remainString = str.substring(1);
-
-        //first char said no 
-        getAllSubsequence_UP(remainString, sub);   //1
-
-        // first char said yes 
-        getAllSubsequence_UP(remainString, sub + first_character);    //2
-
-    }
-
     public static void main(String... args) {
 
         Scanner scn = new Scanner(System.in);
@@ -64,11 +44,9 @@ public class GetSubsequences {
         System.out.print("Enter string =");
         String str = scn.next();
 
-        // on the way down call 
-        // ArrayList<String> allsubSequences = getAllSubsequence_DOWN(str);
-        // System.out.println(allsubSequences + " , " + allsubSequences.size());
-        // on the way up call 
-        getAllSubsequence_UP(str, "");
+        ArrayList<String> allsubSequences = getAllSubsequence(str);
+        System.out.println(allsubSequences + " , " + allsubSequences.size());
+
     }
 
 }
