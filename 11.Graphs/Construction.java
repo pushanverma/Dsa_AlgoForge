@@ -10,7 +10,7 @@ class Edge {
     //Constructor 
     public Edge(int u, int v, int w) {
         this.u = u;
-        this.v = v;
+        this.v = v; 
         this.w = w;
     }
 
@@ -32,6 +32,13 @@ public class Construction {
 
         for(int i=0;i<graph.length;i++){
 
+            //Printing elements inside graph array one by one 
+
+            //1st method : we can simply print arrayList also 
+            // System.out.print(graph[i]+",");
+
+
+            //2nd method :  we are using forEach loop to traverse every element in arrayList 
             for(Edge ele : graph[i]){
                 System.out.print(ele+" , ");
             }
