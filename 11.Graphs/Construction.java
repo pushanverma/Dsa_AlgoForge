@@ -14,10 +14,10 @@ class Edge {
         this.w = w;
     }
 
-    @Override
-    public String toString() {
-       return "{"+this.u+"->"+this.v+":"+this.w+"}";
-    }
+    // @Override
+    // public String toString() {
+    //    return "{"+this.u+"->"+this.v+":"+this.w+"}";
+    // }
 
 }
 
@@ -40,7 +40,11 @@ public class Construction {
 
             //2nd method :  we are using forEach loop to traverse every element in arrayList 
             for(Edge ele : graph[i]){
-                System.out.print(ele+" , ");
+                //1. use this when you wrote toString() function
+                // System.out.print(ele+" , ");
+
+                //2. Use this when you did not write toString() function 
+                System.out.println(ele.u + "->"+ ele.v+ ":"+ele.w);  
             }
 
             System.out.println();

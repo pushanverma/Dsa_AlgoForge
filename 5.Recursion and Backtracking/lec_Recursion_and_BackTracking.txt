@@ -3,12 +3,12 @@ Print Decreasing
 Print Increasing 
 Print Decreasing-Increasing 
 Factorial of Number 
--------------------------------------------------------
+----------------------------------------------------------
 Recursion questions
 x to power y 
 zigZag Pattern question(in order to understand tree diagram)  
 Tower of Hanoi 
---------------------------------------------------------
+----------------------------------------------------------
 Recursion on Arrays :
 
 Print Array 
@@ -17,7 +17,7 @@ Find maximum in Array
 Find first Index of Target 
 Find last Index of Target
 Find all Indices
----------------------------------------------------------
+----------------------------------------------------------
 Recursion on the Way Down :
 
 ArrayList Introduction 
@@ -44,10 +44,11 @@ PrintPermutation
 Find maximum sum of path 
 -------------------------------------------------------------
 
-
-
-
 BackTracking :
+floodFill Algorithm 
+Target sum subset
+N-queens 
+--------------------------------------------------------------
 
 Knights Tour 
 Coin Change - Permutation(Single Use , Multiple use)
