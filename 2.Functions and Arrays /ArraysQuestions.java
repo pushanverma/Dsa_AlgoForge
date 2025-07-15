@@ -1,0 +1,48 @@
+
+import java.util.*;
+
+public class ArraysQuestions {
+
+    public static int findGreaterthan40(int[] arr) {
+
+        int count = 0;
+
+        //note: Extra(storing in arrayList ) 
+        ArrayList<Integer> al = new ArrayList<>();
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > 40) {
+                al.add(arr[i]);
+                count++;
+            }
+        }
+
+        // Printing elements that are greater than 40 
+        for (int ele : al) {
+            System.out.print(ele + " , ");
+        }
+
+        return count;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scn = new Scanner(System.in);
+
+        System.out.print("Enter size of array =");
+        int size = scn.nextInt();
+
+        int[] arr = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            System.out.print("enter ele at " + i + "=");
+            arr[i] = scn.nextInt();
+        }
+
+        int count = findGreaterthan40(arr);
+
+        System.out.println("\nNumber of ele greater than 40 are =" + count);
+
+    }
+
+}
