@@ -10,6 +10,24 @@ Arrays input and output methods
 Take input array and find which are greater than 40 
 -----------------------------------------------------------------
 
+Span of Array 
+Find element in Array (target given)
+Print pattern from array (Buildings)
+Add two Arrays 
+
+-----------------------------------------------------------------
+Subtract two Arrays 
+Reverse Array
+Rotate array by k 
+Inverse of Array 
+Find all SubArrays 
+
+------------------------------------------------------------------
+
+Find number of subArrays with sum k 
+Find the maximum sum of all subarrays 
+Print subSets
+
 
 
 
