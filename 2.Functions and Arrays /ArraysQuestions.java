@@ -25,24 +25,34 @@ public class ArraysQuestions {
         return count;
     }
 
+    public static void swapGame(int[] arr) {
+
+        int temp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = temp;
+
+    }
+
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
 
-        System.out.print("Enter size of array =");
-        int size = scn.nextInt();
+        // System.out.print("Enter size of array =");
+        // int size = scn.nextInt();
+        // int[] arr = new int[size];
+        // for (int i = 0; i < size; i++) {
+        //     System.out.print("enter ele at " + i + "=");
+        //     arr[i] = scn.nextInt();
+        // }
+        // int count = findGreaterthan40(arr);
+        // System.out.println("\nNumber of ele greater than 40 are =" + count);
+        int[] swapArr = new int[]{1, 2};
 
-        int[] arr = new int[size];
+        System.out.println("Elements before swapping ->" + swapArr[0] + " , " + swapArr[1]);
+        swapGame(swapArr);
+        System.out.println("Elements after swapping ->" + swapArr[0] + " , " + swapArr[1]);
 
-        for (int i = 0; i < size; i++) {
-            System.out.print("enter ele at " + i + "=");
-            arr[i] = scn.nextInt();
-        }
-
-        int count = findGreaterthan40(arr);
-
-        System.out.println("\nNumber of ele greater than 40 are =" + count);
-
+        // System.out.println(swapArr[0]+ ","+ swapArr[1]);
     }
 
 }
