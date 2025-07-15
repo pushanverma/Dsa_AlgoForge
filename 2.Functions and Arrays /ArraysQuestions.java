@@ -3,6 +3,7 @@ import java.util.*;
 
 public class ArraysQuestions {
 
+    //topic: Question 1
     public static int findGreaterthan40(int[] arr) {
 
         int count = 0;
@@ -25,6 +26,7 @@ public class ArraysQuestions {
         return count;
     }
 
+    //topic: Question 2
     public static void swapGame(int[] arr) {
 
         int temp = arr[0];
