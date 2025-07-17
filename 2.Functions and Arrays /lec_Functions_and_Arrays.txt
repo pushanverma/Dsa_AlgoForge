@@ -17,8 +17,8 @@ Add two Arrays
 
 -----------------------------------------------------------------
 Subtract two Arrays 
-Reverse Array
 Rotate array by k 
+Reverse Array
 Inverse of Array 
 Find all SubArrays 
 
