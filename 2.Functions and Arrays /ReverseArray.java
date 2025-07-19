@@ -8,7 +8,7 @@ public class ReverseArray {
         arr[j] = temp;
     }
 
-    public static void reverseArray(int[] arr) {
+    public static int[] reverseArray(int[] arr) {
 
         int i = 0;  //starting pointer 
         int j = arr.length - 1;   //ending pointer 
@@ -21,11 +21,7 @@ public class ReverseArray {
             j--;
         }
 
-        System.out.println("Reversed Array -->");
-        for (int p = 0; p < arr.length; p++) {
-            System.out.print(arr[p] + " ");
-        }
-        System.out.println();
+        return arr;
 
     }
 
@@ -33,9 +29,8 @@ public class ReverseArray {
 
         //odd number of elements 
         // int[] arr = {11, 12, 13, 14, 15};
-
         //even number of elements 
-        int[] arr = {11, 12, 13, 14, 15,16};
+        int[] arr = {11, 12, 13, 14, 15, 16};
 
         System.out.println("Original Array -->");
         for (int p = 0; p < arr.length; p++) {
@@ -43,8 +38,13 @@ public class ReverseArray {
         }
         System.out.println();
 
-        
-        reverseArray(arr);
+        int[] ans = reverseArray(arr);
+
+        System.out.println("Reversed Array -->");
+        for (int p = 0; p < arr.length; p++) {
+            System.out.print(arr[p] + " ");
+        }
+        System.out.println();
 
     }
 }
