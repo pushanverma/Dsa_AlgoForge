@@ -40,9 +40,10 @@ public class ReverseArray {
 
         int[] ans = reverseArray(arr);
 
+        // note: We can either save the resultant array inside ans array or can directly print "arr" because changes are made at indexes (it wont make diffrence in final answer)
         System.out.println("Reversed Array -->");
-        for (int p = 0; p < arr.length; p++) {
-            System.out.print(arr[p] + " ");
+        for (int p = 0; p < ans.length; p++) {
+            System.out.print(ans[p] + " ");
         }
         System.out.println();
 
