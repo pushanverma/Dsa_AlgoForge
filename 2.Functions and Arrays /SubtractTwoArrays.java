@@ -27,9 +27,8 @@ public class SubtractTwoArrays {
             System.out.println(i + "...i");
             System.out.println(k + "...k");
 
-            // if numerator is less than denominator 
+            // if numerator is less than denominator , means subtraction is -ve 
             if (diffrence < 0) {
-                System.out.println("-ve");
 
                 arr2[j] = arr2[j] + 10; // adding 10 to numerator 
                 arr2[j - 1] = arr2[j - 1] - 1; // borrowing from left 
@@ -38,14 +37,12 @@ public class SubtractTwoArrays {
                     res[k] = arr2[j] - arr1[i];
                     System.out.println(res[k] + "...res at " + k);
                 } else {
-
                     res[k] = arr2[j];
                 }
                 System.out.println("======================");
             } else {
-                // if numerator is big than denominator 
-                System.out.println("+ve");
-                if (i >= 0) {
+                // if numerator is big than denominator , means subtraction is +ve
+                if (i >= 0) {    
                     res[k] = arr2[j] - arr1[i];
                 } else {
                     res[k] = arr2[j];
@@ -74,8 +71,10 @@ public class SubtractTwoArrays {
         // int []arr1={2,4,1};
         // int[] arr2 = {9, 9, 9};
         // int[] arr1 = {1};
-        int[] arr2 = {9, 9, 9};
-        int[] arr1 = {9, 9, 8};
+        // int[] arr2 = {9, 9, 9};
+        // int[] arr1 = {9, 9, 8};
+        int[] arr2 = {8, 1, 3, 5};
+        int[] arr1 = {1, 8, 3};
 
         subtractTwoArrays(arr1, arr2);
 
