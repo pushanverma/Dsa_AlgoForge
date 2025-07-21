@@ -20,12 +20,13 @@ Subtract two Arrays
 Rotate array by k 
 Reverse Array
 Inverse of Array 
-Find all SubArrays 
+Print all SubArrays 
 
 ------------------------------------------------------------------
 
-Find number of subArrays with sum k 
-Find the maximum sum of all subarrays 
+Find count of subArrays with sum k 
+Find count of subArrays with sum divisible by k 
+Find maximum sum of all subarrays
 Print subSets
 
 
