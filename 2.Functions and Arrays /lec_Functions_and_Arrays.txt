@@ -27,6 +27,7 @@ Print all SubArrays
 Find count of subArrays with sum k 
 Find count of subArrays with sum divisible by k 
 Find maximum sum of all subarrays(Kadanes Algorithm)
+Print subArray with maximum sum
 Print subSets
 
 
