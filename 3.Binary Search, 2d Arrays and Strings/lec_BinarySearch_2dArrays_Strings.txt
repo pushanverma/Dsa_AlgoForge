@@ -1,0 +1,36 @@
+Binary Search 
+
+Binary Search Algorithm and its Time complexity 
+Floor and Ceil Values 
+Increasing Areas 
+Find First and Last index
+-------------------------------------------------
+
+2d Arrays 
+
+Introduction to 2d arrays and their structure 
+fillValues in 2d array 
+Print 2d Array 
+Multiply Matrix
+Wave Traversal
+Exit Point in matrix 
+
+Spiral Matrix 
+Transpose of Matrix
+Rotate by 90
+Search in 2d sorted array 
+Diagonal Traversal 
+
+----------------------------------------------------
+
+Strings 
+
+Introduction to Strings 
+Compress Strings 
+Compress String2
+
+Introduction to ArrayList 
+StringBuilder
+ToggleCase 
+
+
