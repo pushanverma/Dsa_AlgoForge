@@ -1,43 +1,30 @@
-
 public class BinarySearch {
-
-    public static int binarySearch(int[] arr, int target) {
-
-        //strating index and ending index
-        int si = 0;
-        int ei = arr.length - 1;
-
-        while (si <= ei) {
-
-            int mid = (si + ei) / 2;  // mid 
-
-            if (target == arr[mid]) {
-                // found at middle 
-                return mid;
-            } else if (target < arr[mid]) {
-                // will be found at left  
-                ei = mid - 1;
-            } else {
-                // will be found at right 
-                si = mid + 1;
-            }
-
-        }
-
-        return -1;
-
-    }
 
     public static void main(String... args) {
 
-        int[] arr = {1, 4, 7, 8, 11, 14, 17, 19, 21};
-        // int target = 15;
-        // int target =4;
-        int target =19;
+        // this could be only performed if the array is sorted .
+        int[] arr = { 3, 5, 6, 11,13, 14, 19, 28};
+        int target = 14;
 
-        int index = binarySearch(arr, target);
+        // starting index , ending index , and mid element
+        int si = 0;
+        int ei = arr.length - 1;    
+        while (si <= ei) {
+          int  mid = (si + ei) / 2;
 
-        System.out.println(index + "...index");
-
+            if (arr[mid] == target) {
+                System.out.println("Target "+target+" found at ->"+ mid);
+                break;
+            } else if (arr[mid] < target) {
+                // go right
+                si = mid + 1;
+            } else if(arr[mid]>target) {
+                // go left
+                ei = mid - 1;
+            }else {
+                System.out.println("not found ");
+            }
+            
+        }
     }
 }
