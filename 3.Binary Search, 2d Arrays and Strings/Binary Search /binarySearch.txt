@@ -1,0 +1,3 @@
+Binary Search 
+Ceil and Floor 
+Ceil and Floor gfg -https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1
