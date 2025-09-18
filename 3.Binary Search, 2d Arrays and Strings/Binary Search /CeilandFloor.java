@@ -6,10 +6,11 @@ public class CeilandFloor {
         int[] arr = { 1, 7, 9, 13, 18, 23, 35 };
 
         // intially both are extreme ends
-        int ceil = Integer.MAX_VALUE;
-        int floor = Integer.MIN_VALUE;
+        int ceil = Integer.MAX_VALUE;  // since ceil means top of the building , thats why it stores infinity(Maximum value of Integer)
+        int floor = Integer.MIN_VALUE; // since floow means base of the building , thats why it stores -infinity(Minimum value of Infinity)
+        
 
-        int target = 10;
+        int target = 40;
         int si = 0;
         int ei = arr.length - 1;
 
