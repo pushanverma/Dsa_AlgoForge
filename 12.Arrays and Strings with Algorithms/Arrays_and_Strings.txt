@@ -1,0 +1,5 @@
+Two Pointers Algorithm(Segregate Negative and Positive Numbers)
+Segregate 0s and 1s(https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1)
+Segregate 0s 1s and 2s(https://leetcode.com/problems/sort-colors/description/)/ Dutch Flag Algorithm
+Sliding Window Algorithm(Longest substring without repeating characters)
+Longest substring with atmost 

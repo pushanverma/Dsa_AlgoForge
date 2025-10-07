@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class allIndices {
 
@@ -42,11 +41,14 @@ public class allIndices {
     // fsf- found so far
     public static int[] allIndices2(int[] arr, int index, int target, int fsf) {
 
+
+        //base case 
         if (index == arr.length) { //1
             int[] base_arr = new int[fsf];
             return base_arr;
         }
 
+        //on the way up 
         int[] new_arr;
         if (arr[index] == target) { //2
             new_arr = allIndices2(arr, index + 1, target, fsf + 1);
@@ -54,6 +56,7 @@ public class allIndices {
             new_arr = allIndices2(arr, index + 1, target, fsf);
         }
 
+        // on the way down 
         if (arr[index] == target) { //3
             new_arr[fsf] = index;
         }
@@ -79,3 +82,36 @@ public class allIndices {
     }
 
 }
+
+
+
+//Using ArrayList 
+//  public static ArrayList<Integer> allIndices(int []arr,int index, int target){
+        
+//         // ArrayList<Integer>list = new ArrayList<>();
+        
+//         // on the way up 
+//         if(index ==arr.length){
+//             // ArrayList<Integer>newlist = new ArrayList<>();
+//             return new ArrayList<>();
+//         }
+           
+//          ArrayList<Integer>foundSofar = allIndices(arr,index+1,target);
+           
+//            // on the way down 
+//            if(arr[index]==target){
+//                foundSofar.add(index);
+//             //   System.out.println(0,index);
+               
+//            }
+           
+//            return foundSofar;
+//     }
+//     public static void main(String[] args) {
+        
+//         int []arr ={1,0,2,2,3,2,2,9};
+//         int target =2;
+//         ArrayList<Integer>ans = allIndices(arr,0, target);
+//         System.out.println(ans);
+        
+//     }

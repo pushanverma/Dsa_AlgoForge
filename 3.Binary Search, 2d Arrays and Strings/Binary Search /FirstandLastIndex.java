@@ -48,7 +48,7 @@ public class FirstandLastIndex {
 
     public static void main(String[] args) {
 
-        int[] arr = { 1, 3, 3, 3, 5, 5, 5, 5, 8, 11, 13, 13, 19, 19, 19 };
+        int[] arr = { 1, 3, 3, 3, 5, 5, 5, 6, 8, 11, 13, 13, 19, 19, 19 };
 
         int target = 19;
         int[] ans = getFirstandLastIndex(arr, target);
