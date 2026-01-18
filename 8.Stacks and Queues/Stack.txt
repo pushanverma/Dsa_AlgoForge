@@ -1,2 +1,9 @@
 Introduction to Stack (LIFO) and its methods 
 Duplicate Brackets
+Valid Parenthesis(Leetcode_20)
+Next Greater Element on Right- Method 1 (Right to Left)(gfg), with index 
+Next Greater Element on Right- Method 2 (Left to Right)(gfg)
+Next Greater Element on Left - Method 1 
+Stock Span 
+
+
