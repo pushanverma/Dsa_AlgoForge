@@ -1,4 +1,4 @@
-LinkedLists Introduction - See what is LinkedLists 
-Construction of Linked Lists Class (Own not prebuilt )
+Linked Lists Introduction 
+What , Why and How ?
 
 

@@ -28,7 +28,8 @@ Types of constructor -
 3. Copy
 4. Private
 
-DeConstructor in Java -
+
+Is there any DeConstructor in Java present like C++ ? / How Java deals with Garbage Collection ?  -
 
 In C++ , when we write a constructor , we tell to allocate memory and when we write deconstructor we de-allocate that memory.
 But in Java , de-allocating memory happens automatically ? ----How ??
@@ -54,4 +55,53 @@ final keyword -
 
 Problem -
 
-Car class
+
+Resources Followed - 
+1. Kunal Kushwaha 
+2. Code with Aryan (LLD Playlist)
+
+
+
+Topics in OOPS - 
+
+Classes and Objects(Object class and Object Cleaning, Object Chaining , How child class affects parent class when object is made in certain ways)
+Overloading and OverRiding 
+Constructors (diffrent type of constructor - default , parametrized , copy , private )
+this keyword , this() , static keyword , final keyword , finalize keyword 
+Deconstructor (Garbage Collector)
+Packages 
+Static and Non Static 
+Singleton Class
+4 Pillar of OOPs -
+ Inheritance(Single , Multi-Level , Hierarchial ,Multiple(not in java but can be done using interfaces)  , 
+ Polymorphism(compile time and runtime polymorphism ) ,
+ Encapsulation ,
+Abstraction 
+Diamond Problem 
+
+
+Access modifiers 
+Access Control , Inbuilt Packages , Object classes 
+Wrapper classes 
+Interfaces 
+Abstract classes 
+Abstract classes vs Interfaces 
+
+Class Diagrams-
+Inheritance 
+Association 
+Aggregation 
+Composition 
+Dependency 
+Realization 
+
+
+Generics 
+Exception Handling(try Catch , throws Exception , throwable )
+Collection Framework 
+Lambda Expressions 
+WildCards 
+Enum 
+Fast File Handling 
+
+ 
